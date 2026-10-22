@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.serqo</groupId>
+  <artifactId>serqo-java</artifactId>
+  <version>0.1.0</version>
+  <name>Serqo Java SDK</name>
+  <description>Official Java client for the Serqo Search API</description>
+  <url>https://serqo.io</url>
+  <scm><url>https://github.com/serqo-io/serqo-java</url></scm>
+  <licenses><license><name>MIT License</name><url>https://opensource.org/license/mit</url></license></licenses>
+  <properties>
+    <maven.compiler.release>11</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+    <dependency><groupId>com.fasterxml.jackson.core</groupId><artifactId>jackson-databind</artifactId><version>2.18.2</version></dependency>
+  </dependencies>
+</project>
